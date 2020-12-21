@@ -53,7 +53,7 @@ def download_and_load(test_split = 0.2, max_items_per_class = 10000):
   y = y[permutation]
 
   #reshape and inverse the colors 
-  x = 255 - np.reshape(x, (x.shape[0], 28, 28))
+  x = 255 - np.reshape(x, (x.shape[0], 56, 56))
 
   #separate into training and testing 
   test_size  = int(x.shape[0]/100*(test_split*100))
