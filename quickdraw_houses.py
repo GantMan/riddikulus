@@ -32,7 +32,7 @@ def download_and_load(test_split = 0.2, max_items_per_class = 10000):
   print('loading ...')
   
   #initialize variables 
-  x = np.empty([0, 784])
+  x = np.empty([0, 1568])
   y = np.empty([0])
 
   #load each data file 
