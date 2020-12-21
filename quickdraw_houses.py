@@ -1,4 +1,4 @@
-class_names = ['bird', 'owl', 'parrot', 'snake', 'snail', 'lion', 'tiger', 'mouse', 'raccoon', 'squirrel', 'skull']
+class_names = ['bird', 'owl', 'parrot', 'snake', 'snail', 'lion', 'tiger', 'raccoon', 'squirrel', 'skull']
 
 import urllib.request
 import os 
