@@ -15,7 +15,7 @@ RS = 20150101
 # We import seaborn to make nice plots.
 import seaborn as sns
 sns.set_style('darkgrid')
-sns.set_palette('muted')
+sns.set_palette('colorblind')
 sns.set_context("notebook", font_scale=1.5,
                 rc={"lines.linewidth": 2.5})
 
@@ -70,7 +70,7 @@ def download_and_load(test_split = 0.2, max_items_per_class = 10000):
 
 def scatter(x, colors):
     # We choose a color palette with seaborn.
-    palette = np.array(sns.color_palette("hls", 10))
+    palette = np.array(sns.color_palette("colorblind", 10))
 
     # We create a scatter plot.
     f = plt.figure(figsize=(8, 8))
